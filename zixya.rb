@@ -10,7 +10,7 @@ player_hand = gets.to_i
 pc_hand = rand(3)
 inputs = ["ｸﾞｰ","ﾁｮｷ","ﾊﾟｰ"]
 puts "あなたの手#{inputs[player_hand]},pcの手#{inputs[pc_hand]}"
-elsif player_hand == 0 && pc_hand == 1 || player_hand == 1 && pc_hand == 2|| player_hand == 2 && pc_hand == 0then
+elsif player_hand == 0 && pc_hand == 1 || player_hand == 1 && pc_hand == 2|| player_hand == 2 && pc_hand == 0 then
   puts "あなたの勝ちです"
 else  puts "あなたの負けです"
 end 
